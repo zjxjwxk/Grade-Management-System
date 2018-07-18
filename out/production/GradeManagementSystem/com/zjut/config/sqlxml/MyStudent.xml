@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+       Copyright 2009-2016 the original author or authors.
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+
+-->
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="MyStudent">
+
+    <resultMap type="com.zjut.bean.MyStudent" id="MyStuResult">
+        <result column="wxk_Sno" jdbcType="VARCHAR" property="ID"/>
+        <result column="wxk_Sname" jdbcType="VARCHAR" property="name"/>
+        <result column="wxk_Cterm" jdbcType="VARCHAR" property="term"/>
+        <result column="wxk_Classno" jdbcType="VARCHAR" property="classNo"/>
+        <result column="wxk_Cname" jdbcType="VARCHAR" property="courseName"/>
+        <result column="wxk_Cno" jdbcType="VARCHAR" property="courseId"/>
+    </resultMap>
+
+    <select id="queryMyStudent" parameterType="com.zjut.bean.MyStudent" resultMap="MyStuResult">
+        SELECT wxk_Cterm, wxk_Classno, wxk_Sno, wxk_Sname, wxk_Cname, wxk_Cno
+        FROM MyStudents_View
+        <where>
+            wxk_Tno = #{teaId}
+            <if test="classNo != null and !&quot;&quot;.equals(classNo.trim())">
+                AND wxk_Classno = #{classNo}
+            </if>
+            <if test="term != null and !&quot;&quot;.equals(term.trim())">
+                AND wxk_Cterm = #{term}
+            </if>
+            <if test="courseName != null and !&quot;&quot;.equals(courseName.trim())">
+                AND wxk_Cname = #{courseName}
+            </if>
+        </where>
+    </select>
+
+</mapper>

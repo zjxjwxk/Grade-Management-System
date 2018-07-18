@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="WuXinkang03MIS@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.9">
+    <root id="1">
+      <ServerVersion>14.0.100</ServerVersion>
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="WuXinkang03MIS">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <schema id="7" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-07-15.04:19:41.530</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="8" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="20" parent="7" name="wuxk_AdminPwd">
+      <ObjectId>1733581214</ObjectId>
+      <CreatedTimestamp>2018-07-08.21:15:02.593</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.21:15:02.593</ModifiedTimestamp>
+    </table>
+    <table id="21" parent="7" name="wuxk_CC">
+      <ObjectId>2018106230</ObjectId>
+      <CreatedTimestamp>2018-07-13.20:27:19.430</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.20:27:19.570</ModifiedTimestamp>
+    </table>
+    <table id="22" parent="7" name="wuxk_Class">
+      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2018-07-08.19:38:53.767</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.22:44:38.817</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="7" name="wuxk_Courses">
+      <ObjectId>34099162</ObjectId>
+      <CreatedTimestamp>2018-07-12.04:19:14.253</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.00:45:45.197</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="7" name="wuxk_Department">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2018-07-08.19:31:22.397</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.22:44:38.813</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="7" name="wuxk_SC">
+      <ObjectId>14623095</ObjectId>
+      <CreatedTimestamp>2018-07-14.00:45:45.073</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.22:44:39.073</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="7" name="wuxk_Score">
+      <ObjectId>1282103608</ObjectId>
+      <CreatedTimestamp>2018-07-13.03:26:44.517</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.23:54:41.680</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="7" name="wuxk_StuPwd">
+      <ObjectId>1669580986</ObjectId>
+      <CreatedTimestamp>2018-07-08.20:59:30.327</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.20:59:30.327</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="7" name="wuxk_Students">
+      <ObjectId>222623836</ObjectId>
+      <CreatedTimestamp>2018-07-14.22:44:38.683</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.23:44:23.970</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="7" name="wuxk_TeaPwd">
+      <ObjectId>1701581100</ObjectId>
+      <CreatedTimestamp>2018-07-08.21:09:05.443</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.21:09:05.443</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="7" name="wuxk_Teachers">
+      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2018-07-08.20:07:39.933</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.03:26:44.520</ModifiedTimestamp>
+    </table>
+    <view id="31" parent="7" name="ClassCourse_View">
+      <ObjectId>706101556</ObjectId>
+      <CreatedTimestamp>2018-07-12.19:03:52.123</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.19:03:52.123</ModifiedTimestamp>
+    </view>
+    <view id="32" parent="7" name="Class_View">
+      <ObjectId>110623437</ObjectId>
+      <CreatedTimestamp>2018-07-14.19:51:02.010</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.19:51:02.010</ModifiedTimestamp>
+    </view>
+    <view id="33" parent="7" name="MyStudents_View">
+      <ObjectId>1618104805</ObjectId>
+      <CreatedTimestamp>2018-07-13.08:37:49.943</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.08:37:49.943</ModifiedTimestamp>
+    </view>
+    <view id="34" parent="7" name="SC_VIEW">
+      <ObjectId>1218103380</ObjectId>
+      <CreatedTimestamp>2018-07-13.03:21:47.897</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.03:21:47.897</ModifiedTimestamp>
+    </view>
+    <view id="35" parent="7" name="Score_View">
+      <ObjectId>1266103551</ObjectId>
+      <CreatedTimestamp>2018-07-13.03:22:52.897</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.03:22:52.897</ModifiedTimestamp>
+    </view>
+    <view id="36" parent="7" name="StuInfo_View">
+      <ObjectId>318624178</ObjectId>
+      <CreatedTimestamp>2018-07-14.23:32:53.507</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.23:32:53.507</ModifiedTimestamp>
+    </view>
+    <view id="37" parent="7" name="StuScore_VIEW">
+      <ObjectId>350624292</ObjectId>
+      <CreatedTimestamp>2018-07-15.04:18:26.697</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-15.04:18:26.697</ModifiedTimestamp>
+    </view>
+    <view id="38" parent="7" name="TC_View">
+      <ObjectId>1122103038</ObjectId>
+      <CreatedTimestamp>2018-07-12.23:17:32.650</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.23:17:32.650</ModifiedTimestamp>
+    </view>
+    <view id="39" parent="7" name="TeaInfo_View">
+      <ObjectId>1106102981</ObjectId>
+      <CreatedTimestamp>2018-07-12.21:59:59.657</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.21:59:59.657</ModifiedTimestamp>
+    </view>
+    <column id="40" parent="20" name="wxk_Ano">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="20" name="wxk_Apwd">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="42" parent="20" name="PK__wuxk_Adm__ABC81DBB1AF72075">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>wxk_Ano</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="43" parent="20" name="PK__wuxk_Adm__ABC81DBB1AF72075">
+      <ObjectId>1749581271</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-08.21:15:02.597</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.21:15:02.597</ModifiedTimestamp>
+      <ColNames>wxk_Ano</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Adm__ABC81DBB1AF72075</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="44" parent="21" name="wxk_Classno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="21" name="wxk_Cno">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="21" name="PK__wuxk_CC__FD8B842245E80476">
+      <Position>1</Position>
+      <ColNames>wxk_Classno
+wxk_Cno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="21" name="PK__wuxk_CC__FD8B842245E80476">
+      <ObjectId>2034106287</ObjectId>
+      <CreatedTimestamp>2018-07-13.20:27:19.560</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.20:27:19.560</ModifiedTimestamp>
+      <ColNames>wxk_Classno
+wxk_Cno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_CC__FD8B842245E80476</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="21" name="FK__wuxk_CC__wxk_Cla__40058253">
+      <ObjectId>2050106344</ObjectId>
+      <CreatedTimestamp>2018-07-13.20:27:19.560</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.20:27:19.560</ModifiedTimestamp>
+      <ColNames>wxk_Classno</ColNames>
+      <RefTableId>1285579618</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Class</RefTableName>
+      <RefKeyName>PK__wuxk_Cla__3F998DB1E001325E</RefKeyName>
+      <RefColNames>wxk_Classno</RefColNames>
+    </foreign-key>
+    <foreign-key id="49" parent="21" name="FK__wuxk_CC__wxk_Cno__40F9A68C">
+      <ObjectId>2066106401</ObjectId>
+      <CreatedTimestamp>2018-07-13.20:27:19.560</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.20:27:19.560</ModifiedTimestamp>
+      <ColNames>wxk_Cno</ColNames>
+      <RefTableId>34099162</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Courses</RefTableName>
+      <RefKeyName>PK__wuxk_Cou__AB4409C9301416B6</RefKeyName>
+      <RefColNames>wxk_Cno</RefColNames>
+    </foreign-key>
+    <column id="50" parent="22" name="wxk_Classno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="22" name="wxk_Dno">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <index id="52" parent="22" name="PK__wuxk_Cla__3F998DB1E001325E">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>wxk_Classno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="53" parent="22" name="index_Classs_Dno">
+      <Position>2</Position>
+      <ColNames>wxk_Dno</ColNames>
+    </index>
+    <key id="54" parent="22" name="PK__wuxk_Cla__3F998DB1E001325E">
+      <ObjectId>1301579675</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-08.19:38:53.770</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.19:38:53.770</ModifiedTimestamp>
+      <ColNames>wxk_Classno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Cla__3F998DB1E001325E</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="55" parent="22" name="FK__wuxk_Clas__wxk_D__4E88ABD4">
+      <ObjectId>1317579732</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-08.19:38:53.770</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.19:38:53.770</ModifiedTimestamp>
+      <ColNames>wxk_Dno</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Department</RefTableName>
+      <RefKeyName>PK__wuxk_Dep__A80C5BC417D13D8F</RefKeyName>
+      <RefColNames>wxk_Dno</RefColNames>
+    </foreign-key>
+    <column id="56" parent="23" name="wxk_Cno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="23" name="wxk_Cname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="23" name="wxk_Cteacher">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="59" parent="23" name="wxk_Cterm">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="23" name="wxk_Chours">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="23" name="wxk_Ctype">
+      <Position>6</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="23" name="wxk_Ccredit">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="63" parent="23" name="PK__wuxk_Cou__AB4409C9301416B6">
+      <Position>1</Position>
+      <ColNames>wxk_Cno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="64" parent="23" name="index_Courses_Cteacher">
+      <Position>2</Position>
+      <ColNames>wxk_Cteacher</ColNames>
+    </index>
+    <key id="65" parent="23" name="PK__wuxk_Cou__AB4409C9301416B6">
+      <ObjectId>50099219</ObjectId>
+      <CreatedTimestamp>2018-07-12.04:19:14.413</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.04:19:14.413</ModifiedTimestamp>
+      <ColNames>wxk_Cno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Cou__AB4409C9301416B6</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="66" parent="23" name="FK__wuxk_Cour__wxk_C__59FA5E80">
+      <ObjectId>66099276</ObjectId>
+      <CreatedTimestamp>2018-07-12.04:19:14.417</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.04:19:14.417</ModifiedTimestamp>
+      <ColNames>wxk_Cteacher</ColNames>
+      <RefTableId>1397580017</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Teachers</RefTableName>
+      <RefKeyName>PK__wuxk_Tea__AC0D5FD7C5538F54</RefKeyName>
+      <RefColNames>wxk_Tno</RefColNames>
+    </foreign-key>
+    <column id="67" parent="24" name="wxk_Dno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="24" name="wxk_Dname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="69" parent="24" name="PK__wuxk_Dep__A80C5BC417D13D8F">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>wxk_Dno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="70" parent="24" name="PK__wuxk_Dep__A80C5BC417D13D8F">
+      <ObjectId>1221579390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-08.19:31:22.400</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.19:31:22.400</ModifiedTimestamp>
+      <ColNames>wxk_Dno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Dep__A80C5BC417D13D8F</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="71" parent="25" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="25" name="wxk_Cno">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="25" name="wxk_Cstatus">
+      <Position>3</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="74" parent="25" name="PK__wuxk_SC__FD8B8422FF6D281A">
+      <Position>1</Position>
+      <ColNames>wxk_Sno
+wxk_Cno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="25" name="PK__wuxk_SC__FD8B8422FF6D281A">
+      <ObjectId>30623152</ObjectId>
+      <CreatedTimestamp>2018-07-14.00:45:45.193</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.00:45:45.193</ModifiedTimestamp>
+      <ColNames>wxk_Sno
+wxk_Cno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_SC__FD8B8422FF6D281A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="76" parent="25" name="FK__wuxk_SC__wxk_Sno__3C34F16F">
+      <ObjectId>302624121</ObjectId>
+      <CreatedTimestamp>2018-07-14.22:44:39.070</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.22:44:39.070</ModifiedTimestamp>
+      <ColNames>wxk_Sno</ColNames>
+      <RefTableId>222623836</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Students</RefTableName>
+      <RefKeyName>PK__wuxk_Stu__AF4548DA81F834AE</RefKeyName>
+      <RefColNames>wxk_Sno</RefColNames>
+    </foreign-key>
+    <foreign-key id="77" parent="25" name="FK__wuxk_SC__wxk_Cno__3D2915A8">
+      <ObjectId>62623266</ObjectId>
+      <CreatedTimestamp>2018-07-14.00:45:45.197</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.00:45:45.197</ModifiedTimestamp>
+      <ColNames>wxk_Cno</ColNames>
+      <RefTableId>34099162</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Courses</RefTableName>
+      <RefKeyName>PK__wuxk_Cou__AB4409C9301416B6</RefKeyName>
+      <RefColNames>wxk_Cno</RefColNames>
+    </foreign-key>
+    <column id="78" parent="26" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="26" name="wxk_term">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="26" name="wxk_Cno">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="26" name="wxk_score">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="26" name="wxk_Tno">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <index id="83" parent="26" name="PK__wuxk_Sco__8A16533191BCBC07">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>wxk_Sno
+wxk_term
+wxk_Cno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="84" parent="26" name="PK__wuxk_Sco__8A16533191BCBC07">
+      <ObjectId>1298103665</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-13.03:26:44.520</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.03:26:44.520</ModifiedTimestamp>
+      <ColNames>wxk_Sno
+wxk_term
+wxk_Cno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Sco__8A16533191BCBC07</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="85" parent="26" name="FK__wuxk_Scor__wxk_T__4E53A1AA">
+      <ObjectId>1314103722</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-13.03:26:44.520</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.03:26:44.520</ModifiedTimestamp>
+      <ColNames>wxk_Tno</ColNames>
+      <RefTableId>1397580017</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Teachers</RefTableName>
+      <RefKeyName>PK__wuxk_Tea__AC0D5FD7C5538F54</RefKeyName>
+      <RefColNames>wxk_Tno</RefColNames>
+    </foreign-key>
+    <trigger id="86" parent="26" name="trigger_CcreditAdd">
+      <ObjectId>2146106686</ObjectId>
+      <CreatedTimestamp>2018-07-13.23:54:41.680</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-13.23:54:41.680</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <column id="87" parent="27" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="27" name="wxk_Spwd">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="89" parent="27" name="PK__wuxk_Stu__AF4548DAC1D732BF">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>wxk_Sno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="27" name="PK__wuxk_Stu__AF4548DAC1D732BF">
+      <ObjectId>1685581043</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-08.20:59:30.327</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.20:59:30.327</ModifiedTimestamp>
+      <ColNames>wxk_Sno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Stu__AF4548DAC1D732BF</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="91" parent="28" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="28" name="wxk_Sname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="28" name="wxk_Dno">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="28" name="wxk_Classno">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="28" name="wxk_Ssex">
+      <Position>5</Position>
+      <DataType>varchar(2 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="28" name="wxk_Sage">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="28" name="wxk_Saddress">
+      <Position>7</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="28" name="wxk_Scredit">
+      <Position>8</Position>
+      <DefaultConstraintName>DF_wuxk_Students_wxk_Scredit</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="99" parent="28" name="PK__wuxk_Stu__AF4548DA81F834AE">
+      <Position>1</Position>
+      <ColNames>wxk_Sno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="100" parent="28" name="index_Students_Dno">
+      <Position>2</Position>
+      <ColNames>wxk_Dno</ColNames>
+    </index>
+    <index id="101" parent="28" name="index_Students_Classno">
+      <Position>3</Position>
+      <ColNames>wxk_Classno</ColNames>
+    </index>
+    <key id="102" parent="28" name="PK__wuxk_Stu__AF4548DA81F834AE">
+      <ObjectId>254623950</ObjectId>
+      <CreatedTimestamp>2018-07-14.22:44:38.810</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.22:44:38.810</ModifiedTimestamp>
+      <ColNames>wxk_Sno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Stu__AF4548DA81F834AE</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="103" parent="28" name="FK__wuxk_Stud__wxk_D__5165187F">
+      <ObjectId>270624007</ObjectId>
+      <CreatedTimestamp>2018-07-14.22:44:38.813</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.22:44:38.813</ModifiedTimestamp>
+      <ColNames>wxk_Dno</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Department</RefTableName>
+      <RefKeyName>PK__wuxk_Dep__A80C5BC417D13D8F</RefKeyName>
+      <RefColNames>wxk_Dno</RefColNames>
+    </foreign-key>
+    <foreign-key id="104" parent="28" name="FK__wuxk_Stud__wxk_C__52593CB8">
+      <ObjectId>286624064</ObjectId>
+      <CreatedTimestamp>2018-07-14.22:44:38.813</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-14.22:44:38.813</ModifiedTimestamp>
+      <ColNames>wxk_Classno</ColNames>
+      <RefTableId>1285579618</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>wuxk_Class</RefTableName>
+      <RefKeyName>PK__wuxk_Cla__3F998DB1E001325E</RefKeyName>
+      <RefColNames>wxk_Classno</RefColNames>
+    </foreign-key>
+    <default id="105" parent="28" name="DF_wuxk_Students_wxk_Scredit">
+      <ObjectId>238623893</ObjectId>
+      <ColNames>wxk_Scredit</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="106" parent="29" name="wxk_Tno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="29" name="wxk_Tpwd">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="108" parent="29" name="PK__wuxk_Tea__AC0D5FD73CADA4FE">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>wxk_Tno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="109" parent="29" name="PK__wuxk_Tea__AC0D5FD73CADA4FE">
+      <ObjectId>1717581157</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-08.21:09:05.443</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.21:09:05.443</ModifiedTimestamp>
+      <ColNames>wxk_Tno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Tea__AC0D5FD73CADA4FE</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="110" parent="30" name="wxk_Tno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="30" name="wxk_Tname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="30" name="wxk_Tsex">
+      <Position>3</Position>
+      <DataType>varchar(2 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="30" name="wxk_Tage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="30" name="wxk_Ttitle">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="30" name="wxk_Tphone">
+      <Position>6</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="116" parent="30" name="PK__wuxk_Tea__AC0D5FD7C5538F54">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>wxk_Tno</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="117" parent="30" name="PK__wuxk_Tea__AC0D5FD7C5538F54">
+      <ObjectId>1413580074</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-07-08.20:07:39.933</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-08.20:07:39.933</ModifiedTimestamp>
+      <ColNames>wxk_Tno</ColNames>
+      <UnderlyingIndexName>PK__wuxk_Tea__AC0D5FD7C5538F54</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="118" parent="31" name="wxk_Cno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="119" parent="31" name="wxk_Classno">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="120" parent="31" name="wxk_Cterm">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="31" name="wxk_Cname">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="31" name="wxk_Tname">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="31" name="wxk_Chours">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="31" name="wxk_Ccredit">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="31" name="wxk_Ctype">
+      <Position>8</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="32" name="wxk_Classno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="32" name="wxk_Dname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="33" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="129" parent="33" name="wxk_Tno">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="33" name="wxk_Sname">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="33" name="wxk_Classno">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="132" parent="33" name="wxk_Cterm">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="33" name="wxk_Cname">
+      <Position>6</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="134" parent="33" name="wxk_Cno">
+      <Position>7</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="135" parent="34" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="136" parent="34" name="wxk_Cterm">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="34" name="wxk_Cname">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="34" name="wxk_Tname">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="34" name="wxk_Chours">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="34" name="wxk_Ccredit">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="141" parent="34" name="wxk_Ctype">
+      <Position>7</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="142" parent="34" name="wxk_Cstatus">
+      <Position>8</Position>
+      <DataType>varchar(5 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="143" parent="35" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="35" name="wxk_Tno">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="145" parent="35" name="wxk_Sname">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="35" name="wxk_Classno">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="147" parent="35" name="wxk_term">
+      <Position>5</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="35" name="wxk_Cname">
+      <Position>6</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="149" parent="35" name="wxk_Cno">
+      <Position>7</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="35" name="wxk_Tname">
+      <Position>8</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="35" name="wxk_score">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="36" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="36" name="wxk_Sname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="36" name="wxk_Dno">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="36" name="wxk_Dname">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="36" name="wxk_Classno">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="36" name="wxk_Ssex">
+      <Position>6</Position>
+      <DataType>varchar(2 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="158" parent="36" name="wxk_Sage">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="159" parent="36" name="wxk_Saddress">
+      <Position>8</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="160" parent="36" name="wxk_Scredit">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="161" parent="37" name="wxk_Sno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="37" name="wxk_Sname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="163" parent="37" name="wxk_Cterm">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="164" parent="37" name="wxk_Classno">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="165" parent="37" name="wxk_Cname">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="166" parent="37" name="wxk_Tname">
+      <Position>6</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="37" name="wxk_Chours">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="168" parent="37" name="wxk_Ccredit">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="169" parent="37" name="wxk_Ctype">
+      <Position>9</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="37" name="wxk_Score">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="171" parent="38" name="wxk_Cteacher">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="172" parent="38" name="wxk_Cno">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="173" parent="38" name="wxk_Cterm">
+      <Position>3</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="38" name="wxk_Classno">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="175" parent="38" name="wxk_Cname">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="176" parent="38" name="wxk_Chours">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="177" parent="38" name="wxk_Ccredit">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="178" parent="38" name="wxk_Ctype">
+      <Position>8</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="179" parent="39" name="wxk_Tno">
+      <Position>1</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="180" parent="39" name="wxk_Tname">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="181" parent="39" name="wxk_Tsex">
+      <Position>3</Position>
+      <DataType>varchar(2 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="182" parent="39" name="wxk_Tage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="183" parent="39" name="wxk_Ttitle">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="184" parent="39" name="wxk_Tphone">
+      <Position>6</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>

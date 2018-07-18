@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+       Copyright 2009-2016 the original author or authors.
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+
+-->
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="QueryCourse">
+
+    <resultMap type="com.zjut.bean.Course" id="CourseResult">
+        <id column="wxk_Cno" jdbcType="VARCHAR" property="ID"/>
+        <result column="wxk_Cname" jdbcType="VARCHAR" property="name"/>
+        <result column="wxk_Tname" jdbcType="VARCHAR" property="teacher"/>
+        <result column="wxk_Cterm" jdbcType="VARCHAR" property="term"/>
+        <result column="wxk_Chours" jdbcType="INTEGER" property="hours"/>
+        <result column="wxk_Ctype" jdbcType="VARCHAR" property="type"/>
+        <result column="wxk_Ccredit" jdbcType="INTEGER" property="credit"/>
+    </resultMap>
+
+    <select id="queryCourse" parameterType="com.zjut.bean.Course" resultMap="CourseResult">
+        SELECT wxk_Cno, wxk_Cname, wxk_Tname, wxk_Cterm, wxk_Chours, wxk_Ccredit, wxk_Ctype
+        FROM wuxk_Courses, wuxk_Teachers
+        <where>
+            AND wuxk_Courses.wxk_Cteacher = wuxk_Teachers.wxk_Tno
+            <if test="ID != null and !&quot;&quot;.equals(ID.trim())">
+                AND wxk_Cno = #{ID}
+            </if>
+            <if test="name != null and !&quot;&quot;.equals(name.trim())">
+                AND wxk_Cname = #{name}
+            </if>
+            <if test="teacher != null and !&quot;&quot;.equals(teacher.trim())">
+                AND wxk_Tname = #{teacher}
+            </if>
+            <if test="term != null and !&quot;&quot;.equals(term.trim())">
+                AND wxk_Cterm = #{term}
+            </if>
+        </where>
+    </select>
+
+</mapper>
