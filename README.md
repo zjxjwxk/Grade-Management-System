@@ -3,6 +3,16 @@ Bootstrap/JSP/Servlet/Mybatis 高校成绩管理系统
 
 <br>
 
+## 开发平台
+IntelliJ IDEA 2018、Microsoft SQL Server Management Studio 2018
+
+<br>
+
+## 开发环境
+DK 8、Tomcat 7.0.85、Mybatis 3.4.6、mssql-jdbc-6.4.0、jstl、log4j-1.2.17、jQuery-3.2.1、bootstrap、jQuery.dataTables、font-awesome
+
+<br>
+
 ## 登陆系统
 
 根据登陆类型（学生、教师、管理员），判断输入的用户名是否存在，输入的密码是否正确。
@@ -11,6 +21,9 @@ Bootstrap/JSP/Servlet/Mybatis 高校成绩管理系统
 ![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/login.png)
 
 ---
+
+<br>
+<br>
 
 ## 学生系统
 
@@ -39,6 +52,9 @@ Bootstrap/JSP/Servlet/Mybatis 高校成绩管理系统
 ![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/student-choose-course.png)
 
 ---
+
+<br>
+<br>
 
 ## 教师系统
 
@@ -73,6 +89,9 @@ Bootstrap/JSP/Servlet/Mybatis 高校成绩管理系统
 ![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/teacher-score-insert.png)
 
 ---
+
+<br>
+<br>
 
 ## 管理员系统
 
