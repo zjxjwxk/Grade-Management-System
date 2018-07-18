@@ -71,3 +71,55 @@ Bootstrap/JSP/Servlet/Mybatis 高校成绩管理系统
 <br>
 <br>
 ![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/teacher-score-insert.png)
+
+---
+
+## 管理员系统
+
+### 管理员信息
+可查看管理员信息（管理员号）
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-info.png)
+
+### 专业管理
+可根据专业编号、专业名称添加专业，并在下方显示已有的专业编号及名称
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-department.png)
+
+### 班级管理
+可根据专业名称、班级编号添加班级，并在下方显示已有的班级及其所属的专业。
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-class.png)
+
+### 学生管理
+可根据学号、姓名、专业、班级、性别、年龄、生源所在地添加学生，可检索查询学生信息（可根据学号、姓名、专业、班级、生源所在地）并显示在下方
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-students.png)
+
+### 教师管理
+可根据教师编号、姓名、性别、年龄、职称、联系电话添加教师，并在下方显示已有的教师信息。
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-teachers.png)
+
+### 课程管理
+可根据学期、课程编号、课程名称、教师姓名、学时、学分、考查类型添加课程，并可根据学期、课程编号、课程名称、教师姓名查询课程信息并显示在下方
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-courses.png)
+
+### 班级开课
+可根据班级和课程编号为班级开设课程，并可根据学期、班级、课程编号、课程名称、教师检索查询班级的开课情况
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-class-courses.png)
+
+### 成绩管理
+可根据学期、班级、学号、学生姓名、课程名称、教师名称查询成绩信息和排名情况。
+<br>
+<br>
+![图片不存在](https://github.com/zjxjwxk/GradeManagementSystem/raw/master/Screenshots/admin-score.png)
