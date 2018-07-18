@@ -9,7 +9,7 @@ IntelliJ IDEA 2018、Microsoft SQL Server Management Studio 2018
 <br>
 
 ## 开发环境
-DK 8、Tomcat 7.0.85、Mybatis 3.4.6、mssql-jdbc-6.4.0、jstl、log4j-1.2.17、jQuery-3.2.1、bootstrap、jQuery.dataTables、font-awesome
+JDK 8、Tomcat 7.0.85、Mybatis 3.4.6、mssql-jdbc-6.4.0、jstl、log4j-1.2.17、jQuery-3.2.1、bootstrap、jQuery.dataTables、font-awesome
 
 <br>
 
